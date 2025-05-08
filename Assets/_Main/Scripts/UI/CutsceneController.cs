@@ -12,8 +12,9 @@ public class CutsceneController : MonoBehaviour
     private Animator animator;
 
     // -------------------------------
+    [Header("Configurações")]
     public CutSceneObject[] itens;
-    public AudioClip audio;
+    public AudioClip BGM;
     public string nextScene = "_Main/Scenes/Menu";
     // -------------------------------
     private float timerController;
@@ -31,7 +32,7 @@ public class CutsceneController : MonoBehaviour
     }
 
     void Start () {
-        if (audio) AudioController.Instance.PlayBGM(audio);
+        if (BGM) AudioController.Instance.PlayBGM(BGM);
     }
 
     void Update() {

@@ -748,7 +748,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 098ba1bcfca22fb48ada246df4e0a40e, type: 2}
   - {fileID: 11400000, guid: 0dc16ee50ab456c4182654bf9b27329c, type: 2}
   - {fileID: 11400000, guid: 1a3a066990093e64faca883756784e32, type: 2}
-  audio: {fileID: 8300000, guid: 828d904ee6ad315499f2c33c0ac74519, type: 3}
+  BGM: {fileID: 8300000, guid: 828d904ee6ad315499f2c33c0ac74519, type: 3}
   nextScene: _Main/Scenes/Menu
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
