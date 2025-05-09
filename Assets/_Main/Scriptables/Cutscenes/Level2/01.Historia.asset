@@ -10,13 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d15739cfe35386e4591f6ae91e282820, type: 3}
-  m_Name: 02_Coord
+  m_Name: 01.Historia
   m_EditorClassIdentifier: 
-  background: {fileID: 2063826154672905881, guid: 6a8663ff0739ea2438252f035e087c08, type: 3}
-  text: 'Orientador: Carlos Alberto Correia Lessa Filho
-
-
-
-    Coorientador: Wagner
-    Palmeira'
-  timer: 3
+  background: {fileID: -3613701932646087723, guid: 7d5c238b1f949754bbae0f62e61effff, type: 3}
+  text: Historia da fase 2
+  timer: 6

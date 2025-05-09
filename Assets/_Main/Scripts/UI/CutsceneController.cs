@@ -7,8 +7,8 @@ using UnityEngine.SceneManagement;
 public class CutsceneController : MonoBehaviour
 {
 
-    private Image background;
-    private TMP_Text text;
+    public Image background;
+    public TMP_Text text;
     private Animator animator;
 
     // -------------------------------
@@ -22,8 +22,6 @@ public class CutsceneController : MonoBehaviour
     private bool lastItem = false;
 
     void Awake() {
-        background = transform.GetChild(0).GetComponent<Image>();
-        text = transform.GetChild(1).GetComponent<TMP_Text>();
         animator = GetComponent<Animator>();
         
         //Tem item?

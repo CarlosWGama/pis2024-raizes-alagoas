@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d15739cfe35386e4591f6ae91e282820, type: 3}
-  m_Name: 01_Equip
+  m_Name: 01.Historia
   m_EditorClassIdentifier: 
-  background: {fileID: 2063826154672905881, guid: 6a8663ff0739ea2438252f035e087c08, type: 3}
-  text: "Equipe:\n\n\nLuana\n\nRafaela\n\nJo\xE3o "
-  timer: 3
+  background: {fileID: 744007024547877460, guid: a0178fdc9b5e6c4469bb415b3a024187, type: 3}
+  text: Historia da fase 4
+  timer: 6

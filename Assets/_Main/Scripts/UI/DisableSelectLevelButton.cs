@@ -18,6 +18,9 @@ public class DisableSelectLevelButton : MonoBehaviour
 
     void BloquearFase() {
         //Fase Liberada
+        Debug.Log("Level - " + level);
+        Debug.Log(PlayerPrefs.HasKey("level_"+level));
+        Debug.Log(PlayerPrefs.GetInt("level_"+level));
         if (!PlayerPrefs.HasKey("level_"+level) || PlayerPrefs.GetInt("level_"+level) == 0) {
             locker.SetActive(true);
             play.SetActive(false);
