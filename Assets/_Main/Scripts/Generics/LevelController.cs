@@ -12,6 +12,9 @@ public class LevelController : MonoBehaviour
     public AudioClip BGM;
     public AudioClip BGS;
 
+    void Start() {
+        AudioController.Instance.PlayBGM(BGM);
+    }
 
 
     public void CompleteLevel() {

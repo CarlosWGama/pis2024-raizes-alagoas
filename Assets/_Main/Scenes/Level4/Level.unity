@@ -388,7 +388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level: 4
   nextLevel: _Main/Scenes/Credits
-  BGM: {fileID: 0}
+  BGM: {fileID: 8300000, guid: 5112b4a42fe04ee45a334396b7dd93c0, type: 3}
   BGS: {fileID: 0}
 --- !u!4 &513937235
 Transform:

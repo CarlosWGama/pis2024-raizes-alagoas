@@ -400,6 +400,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1254303634699882485, guid: 51148efe20e23cd47ad58a00f60ab8b5, type: 3}
+      propertyPath: itens.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1254303634699882485, guid: 51148efe20e23cd47ad58a00f60ab8b5, type: 3}
+      propertyPath: 'itens.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: dfcfe4de78c01584980d18dbfa494592, type: 2}
     - target: {fileID: 7329775901398310213, guid: 51148efe20e23cd47ad58a00f60ab8b5, type: 3}
       propertyPath: m_Pivot.x
       value: 0

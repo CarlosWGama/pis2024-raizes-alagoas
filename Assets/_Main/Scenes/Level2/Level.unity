@@ -388,7 +388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   level: 2
   nextLevel: _Main/Scenes/Level3/CutScene
-  BGM: {fileID: 0}
+  BGM: {fileID: 8300000, guid: 3d27e83d0dfadfd48a3befbdedc15028, type: 3}
   BGS: {fileID: 0}
 --- !u!4 &513937235
 Transform:
